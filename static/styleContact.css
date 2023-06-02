@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+h1{
+    text-align: center;
+    margin: 12px 0;
+    color: #ff2f00;
+    text-decoration: underline;
+}
+.container{
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container h1{
+    font-family: 'Roboto', sans-serif;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+.myInput{
+    font-size: 15px;
+    width: 30%;
+    outline: none;
+    padding: 5px;
+    border: 2px inset purple;
+    margin: 9px;
+    border-radius: 6px;
+}
+.myInput:hover{
+    font-weight: bold;
+    width: 30%;
+    outline: none;
+    padding: 5px;
+    border: 2px outset rgb(255, 7, 255);
+    margin: 9px;
+    border-radius: 6px;
+}
+
+.btn{
+    border: 2px solid rgb(0 0 0);
+    border-radius: 8px;
+    color: wheat;
+    background: #101010;
+    outline: none;
+    margin-top: 42px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    padding: 5px 25px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: black;
+    background: white;
+    border-radius: 6px;
+}
+#footer{
+    display: flex;
+    color: wheat;
+    background: black;
+    height: 48px;
+    margin-top: 23px;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

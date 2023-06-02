@@ -1,0 +1,44 @@
+extends base.pug
+
+block scripts
+    script(src='/static/index.js')
+
+block style
+    style
+        include ../static/style.css
+
+block content     
+    section#introSection
+        div  Welcome to Star Dance Academy
+        div.small Eat Sleep Dance Repeat
+    section#missionSection
+        h2 Our Mission
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/img/dance1.png")
+                div.card-content
+                    p This is the best dance academy of the universe cdjoi ripum.
+        div.card
+            h3 Bring Confidence in Dance
+            div.card-box
+                div.card-img
+                    img(src="/static/img/dance2.png")
+                div.card-content
+                    p This is the best dance academy of the universe corum deum.
+        div.card
+            h3 Excellent Expression in Dance
+            div.card-box
+                div.card-img
+                    img(src="/static/img/dance1.png")
+                div.card-content
+                    p This is the best dance academy of the universe yourm rdssum.
+
+    section#SponsorsSection
+        h2 Our Sponsors
+        div#sponsors
+            img(src="/static/img/sponsor 1.png", alt="Sponsor Image", class="spImage")
+            img(src="/static/img/sponsor 2.png", alt="Sponsor Image", class="spImage")
+            img(src="/static/img/sponsor 3.png", alt="Sponsor Image", class="spImage")
+            img(src="/static/img/sponsor 4.png", alt="Sponsor Image", class="spImage")

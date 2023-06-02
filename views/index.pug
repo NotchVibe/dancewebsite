@@ -1,0 +1,57 @@
+//- index.pug
+doctype html
+html
+    head
+    title Star Dance Academy
+    style
+        include ../static/style.css
+    body
+        nav#navbar
+            ul
+                div#logo
+                    img(src="/static/img/logo.png")
+                    | SDA
+                li #[a(href="/") Home]
+                li #[a(href="/") About]
+                li #[a(href="/") Services]
+                li #[a(href="/") Class Info]
+                li #[a(href="/") Contact Us]
+        
+        section#introSection
+            div  Welcome to Star Dance Academy
+            div.small Eat Sleep Dance Repeat
+        section#missionSection
+            h2 Our Mission
+            div.card
+                h3 Dance Perfection
+                div.card-box
+                    div.card-img
+                        img(src="/static/img/dance1.png")
+                    div.card-content
+                        p This is the best dance academy of the universe cdjoi ripum.
+            div.card
+                h3 Bring Confidence in Dance
+                div.card-box
+                    div.card-img
+                        img(src="/static/img/dance2.png")
+                    div.card-content
+                        p This is the best dance academy of the universe corum deum.
+            div.card
+                h3 Excellent Expression in Dance
+                div.card-box
+                    div.card-img
+                        img(src="/static/img/dance1.png")
+                    div.card-content
+                        p This is the best dance academy of the universe yourm rdssum.
+        section#SponsorsSection
+            h2 Our Sponsors
+            div#sponsors
+                img(src="/static/img/sponsor 1.png", alt="Sponsor Image", class="spImage")
+                img(src="/static/img/sponsor 2.png", alt="Sponsor Image", class="spImage")
+                img(src="/static/img/sponsor 3.png", alt="Sponsor Image", class="spImage")
+                img(src="/static/img/sponsor 4.png", alt="Sponsor Image", class="spImage")
+                
+        footer#footer
+            | Copyright © 2019 StarDanceAcademy.com | All rights reserved 
+        script
+            include ../static/index.js
